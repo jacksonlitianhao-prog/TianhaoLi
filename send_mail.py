@@ -11,7 +11,7 @@ msg["Subject"] = "自动邮件提醒"
 msg["From"] = sender
 msg["To"] = receiver
 
-with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+with smtplib.SMTP_SSL("smtp.163.com", 465) as server:
     server.login(sender, password)
     server.sendmail(sender, [receiver], msg.as_string())
 
