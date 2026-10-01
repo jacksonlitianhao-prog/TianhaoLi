@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tianhao Li — developer portfolio featuring automation, web development, and thoughtful digital experiences.">
+  <meta name="theme-color" content="#0a0d12">
+  <title>Tianhao Li — Developer Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0d12'/%3E%3Cpath d='M17 18h30v8H36v25h-8V26H17z' fill='%23b9ff66'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Tianhao Li, home">
+      <span class="brand-mark">TL</span>
+      <span>Tianhao Li</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+    </button>
+    <nav id="primary-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a class="nav-cta" href="mailto:jacksonlitianhao@gmail.com">Say hello</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Available for new opportunities</p>
+        <h1>I build useful things<br>with <span>code &amp; curiosity.</span></h1>
+        <p class="statement" id="about">I’m Tianhao Li, a developer who turns practical ideas into reliable, intuitive digital experiences through thoughtful code and automation.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work</a>
+          <a class="button button-secondary" href="https://github.com/jacksonlitianhao-prog" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <aside class="code-window reveal" aria-label="Developer profile card">
+        <div class="window-bar"><span></span><span></span><span></span><p>profile.js</p></div>
+        <pre><code><span class="muted">01</span>  <span class="purple">const</span> developer = {
+<span class="muted">02</span>    name: <span class="green">"Tianhao Li"</span>,
+<span class="muted">03</span>    focus: [
+<span class="muted">04</span>      <span class="green">"Web Development"</span>,
+<span class="muted">05</span>      <span class="green">"Automation"</span>,
+<span class="muted">06</span>      <span class="green">"Problem Solving"</span>
+<span class="muted">07</span>    ],
+<span class="muted">08</span>    mindset: <span class="green">"always learning"</span>
+<span class="muted">09</span>  };</code></pre>
+        <div class="terminal-line"><span>~/portfolio</span><span class="prompt">$</span><span>building what matters</span><span class="cursor"></span></div>
+      </aside>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / TOOLKIT</p>
+        <h2>Skills I bring<br>to the table.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-number">01</span>
+          <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+          <h3>Development</h3>
+          <p>Building clean, maintainable solutions from front end to back end.</p>
+          <ul><li>HTML &amp; CSS</li><li>JavaScript</li><li>Python</li><li>Git &amp; GitHub</li></ul>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">02</span>
+          <div class="skill-icon" aria-hidden="true">◎</div>
+          <h3>Automation</h3>
+          <p>Turning repetitive processes into dependable, hands-off workflows.</p>
+          <ul><li>GitHub Actions</li><li>Email workflows</li><li>Environment variables</li><li>Task scripting</li></ul>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">03</span>
+          <div class="skill-icon" aria-hidden="true">◇</div>
+          <h3>Professional</h3>
+          <p>Approaching each challenge with clarity, ownership, and curiosity.</p>
+          <ul><li>Problem solving</li><li>Communication</li><li>Documentation</li><li>Continuous learning</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading projects-heading reveal">
+        <div><p class="eyebrow">02 / SELECTED WORK</p><h2>Things I’ve built.</h2></div>
+        <p>Projects that combine practical engineering with a focus on simple, useful outcomes.</p>
+      </div>
+      <div class="project-list">
+        <article class="project reveal">
+          <div class="project-index">01</div>
+          <div class="project-content">
+            <p class="project-type">Automation · Python</p>
+            <h3>Email Automation Workflow</h3>
+            <p>A secure Python email sender connected to GitHub Actions, using encrypted environment secrets and SMTP to automate recurring notifications.</p>
+            <div class="tags"><span>Python</span><span>GitHub Actions</span><span>SMTP</span></div>
+          </div>
+          <a class="project-link" href="https://github.com/jacksonlitianhao-prog/TianhaoLi/blob/main/send_mail.py" target="_blank" rel="noreferrer" aria-label="View Email Automation Workflow code">View code <span>↗</span></a>
+        </article>
+        <article class="project reveal">
+          <div class="project-index">02</div>
+          <div class="project-content">
+            <p class="project-type">Web · Design</p>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive, accessible portfolio designed and developed from scratch to present skills, projects, and professional goals with a clear point of view.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <a class="project-link" href="https://github.com/jacksonlitianhao-prog/TianhaoLi" target="_blank" rel="noreferrer" aria-label="View Personal Portfolio repository">Repository <span>↗</span></a>
+        </article>
+        <article class="project reveal">
+          <div class="project-index">03</div>
+          <div class="project-content">
+            <p class="project-type">Engineering · Workflow</p>
+            <h3>Continuous Delivery Setup</h3>
+            <p>A version-controlled deployment workflow that keeps code reviewable, repeatable, and ready to publish from a single source of truth.</p>
+            <div class="tags"><span>Git</span><span>CI/CD</span><span>GitHub Pages</span></div>
+          </div>
+          <a class="project-link" href="https://github.com/jacksonlitianhao-prog/TianhaoLi/tree/main/.github/workflows" target="_blank" rel="noreferrer" aria-label="View Continuous Delivery Setup files">View workflow <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section reveal">
+      <p class="eyebrow">03 / CONTACT</p>
+      <h2>Have a problem worth solving?</h2>
+      <p>I’m always interested in thoughtful projects, new challenges, and conversations about building better software.</p>
+      <a class="button button-primary" href="mailto:jacksonlitianhao@gmail.com">Start a conversation</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Tianhao Li</p>
+    <div><a href="mailto:jacksonlitianhao@gmail.com">Email</a><a href="https://github.com/jacksonlitianhao-prog" target="_blank" rel="noreferrer">GitHub</a></div>
+    <p class="footer-note">Designed with intention. Built with code.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
